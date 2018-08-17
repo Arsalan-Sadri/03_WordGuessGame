@@ -1,0 +1,31 @@
+h1 {
+    color: red;
+    font-size: 7vw;
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: -1;
+    width: 600px;
+    height: 300px;
+}
+
+#mainRow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    /*set to a negative number 1/2 of your height*/
+    margin-left: -15em;
+    /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+}
